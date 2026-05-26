@@ -42,6 +42,7 @@ ann-arbor-weather-trend/
 │   └── climate_analysis.ipynb
 ├── docs/
 │   ├── project_proposal.pdf
+│   ├── mathematical_theory.pdf
 │   └── final_presentation.pdf
 ├── figures/
 │   └── linear_model.png
