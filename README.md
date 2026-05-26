@@ -35,10 +35,10 @@ ann-arbor-weather-trend/
 
 ## Main Features
 
-- Data cleaning and filtering
-- Time-series visualization
-- Linear trend modeling
-- Seasonal pattern analysis
+- Long-term weather trend analysis
+- Seasonal temperature modeling using sinusoidal functions
+- Regression-based climate trend fitting
+- Time-series visualization and exploratory analysis
 
 ## Files
 
