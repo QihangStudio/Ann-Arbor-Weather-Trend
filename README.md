@@ -4,7 +4,7 @@ This project analyzes long-term weather trends in Ann Arbor using Python.
 
 ## Sample Visualization
 
-![Temperature Trend](figures/temp_trends.png)
+![Temperature Trend](figures/sinusoidal_model.png)
 
 ## Project Overview
 
