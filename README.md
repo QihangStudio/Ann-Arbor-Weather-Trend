@@ -15,7 +15,7 @@ The goal of this project is to explore long-term temperature trends in Ann Arbor
 This project applies least squares regression to model temperature trends. The main model uses a linear time trend with sine and cosine terms to represent seasonal variation:
 
 ```text
-T = β₀ + β₁t + β₂sin(2πm/12) + β₃cos(2πm/12) + ε
+$T = β₀ + β₁t + β₂sin(2πm/12) + β₃cos(2πm/12) + ε$
 ```
 
 where `t` represents time, `m` represents the month of the year, and the sine and cosine terms capture annual seasonal cycles.
