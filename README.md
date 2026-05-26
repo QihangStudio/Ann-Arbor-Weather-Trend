@@ -2,6 +2,10 @@
 
 This project analyzes long-term weather trends in Ann Arbor using Python.
 
+## Sample Visualization
+
+![Temperature Trend](figures/temp_trends.png)
+
 ## Project Overview
 
 The goal of this project is to explore temperature trends over time and identify possible seasonal or long-term patterns.
