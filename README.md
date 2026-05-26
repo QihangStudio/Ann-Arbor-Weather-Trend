@@ -6,6 +6,21 @@ This project analyzes long-term weather trends in Ann Arbor using Python.
 
 The goal of this project is to explore temperature trends over time and identify possible seasonal or long-term patterns.
 
+```text
+ann-arbor-weather-trend/
+├── data/
+│   └── data.csv
+├── notebooks/
+│   └── climate_analysis.ipynb
+├── src/
+│   └── analysis.py
+├── docs/
+│   ├── project_proposal.pdf
+│   └── final_presentation.pdf
+├── figures/
+└── README.md
+```
+
 ## Tools Used
 
 - Python
