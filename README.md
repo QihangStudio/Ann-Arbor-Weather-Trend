@@ -2,20 +2,31 @@
 
 This project analyzes long-term weather trends in Ann Arbor using Python, least squares regression, and seasonal harmonic modeling.
 
+
 ## Sample Visualization
 
 ![Temperature Trend](figures/sinusoidal_model.png)
 
+
 ## Project Overview
 
 The goal of this project is to explore long-term temperature trends in Ann Arbor and identify possible seasonal or long-term patterns. Historical weather data are used to model average daily temperature over time. The analysis combines linear trend modeling with sinusoidal seasonal components to capture both long-term changes and cyclical seasonal variation.
+
+
+## Key Findings
+
+- A simple linear model alone does not capture the temperature pattern well.
+- Adding sinusoidal seasonal terms substantially improves model fit.
+- The harmonic regression model captures annual seasonal cycles in Ann Arbor temperature data.
+- The positive time coefficient suggests a gradual upward temperature trend, though further statistical testing is needed.
+
 
 ## Statistical Methods
 
 This project applies least squares regression to model temperature trends. The main model uses a linear time trend with sine and cosine terms to represent seasonal variation:
 
 ```text
-$T = β₀ + β₁t + β₂sin(2πm/12) + β₃cos(2πm/12) + ε$
+T = β₀ + β₁t + β₂sin(2πm/12) + β₃cos(2πm/12) + ε
 ```
 
 where `t` represents time, `m` represents the month of the year, and the sine and cosine terms capture annual seasonal cycles.
@@ -81,14 +92,15 @@ Then run the main analysis script:
 python src/analysis.py
 ```
 
-
 ## Data Source
 
 Weather data are retrieved from NOAA climate records and stored in `data/data.csv`.
 
 
-## Author
+## License
 
 © 2026 Qihang Cheng. 
 
-This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
+Code in this repository is licensed under the MIT License.
+
+Documents, figures, and presentation materials are licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
