@@ -38,12 +38,10 @@ The least squares problem is solved using QR decomposition, which provides a num
 ann-arbor-weather-trend/
 ├── data/
 │   └── data.csv
-├── notebooks/
-│   └── climate_analysis.ipynb
 ├── docs/
-│   ├── project_proposal.pdf
-│   ├── mathematical_theory.pdf
-│   └── final_presentation.pdf
+│   ├── 1_project_proposal.pdf
+│   ├── 2_mathematical_theory.pdf
+│   └── 3_presentation.pdf
 ├── figures/
 │   └── linear_model.png
 │   └── sinusoidal_model.png
