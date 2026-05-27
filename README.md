@@ -62,10 +62,9 @@ ann-arbor-weather-trend/
 ## Files
 
 - `data/`: Weather dataset used for the analysis
-- `src/`: Python scripts for data processing, modeling, and visualization
-- `notebooks/`: Jupyter Notebook analysis
-- `figures/`: Generated plots and model visualizations
 - `docs/`: Project proposal and final presentation
+- `src/`: Python scripts for data processing, modeling, and visualization
+- `figures/`: Generated plots and model visualizations
 
 
 ## How to Run
